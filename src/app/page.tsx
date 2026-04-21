@@ -17,9 +17,9 @@ export default function HomePage() {
           <div className="reveal">
             <h1 className="mb-4">{site.name}</h1>
             <p className="mt-4 max-w-prose text-ink-600 leading-relaxed">
-              My research focuses on <strong>AI alignment and safety</strong>,{" "}
-              <strong>multi-agent systems</strong>, game theory for security,
-              and <strong>auditable AI</strong>. I approach these problems with
+              My research focuses on AI alignment and safety,{" "}
+              multi-agent systems, game theory for security,
+              and auditable AI. I approach these problems with
               a decade of experience designing and operating large-scale
               production systems, and I am drawn to questions where theoretical
               rigor must meet deployment reality.
