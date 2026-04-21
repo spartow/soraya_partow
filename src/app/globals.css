@@ -18,8 +18,11 @@
   }
 
   body {
-    @apply bg-ink-50 text-ink-800 font-sans;
+    @apply text-ink-800 font-sans;
     font-feature-settings: "ss01", "cv11";
+    background: linear-gradient(168deg, #faf9f7 0%, #f3f1ed 30%, #eef0f3 70%, #eae8f0 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
   }
 
   h1, h2, h3, h4 {

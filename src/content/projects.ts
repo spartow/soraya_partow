@@ -61,10 +61,10 @@ export const projects: Project[] = [
   },
   {
     slug: "grader-reliability",
-    name: "Grader Reliability & Reward Manipulation Benchmark",
-    tagline: "Stress-testing the evaluators that train and certify AI systems.",
+    name: "Who Grades the Graders?",
+    tagline: "Validating automated evaluators in adversarial AI safety benchmarks.",
     overview:
-      "A benchmark for probing the reliability of graders and reward models used in RLHF-style pipelines, and for detecting reward manipulation by trained policies.",
+      "A benchmark and validation protocol for probing the reliability of automated graders used in AI safety evaluations, demonstrating that grader choice can reverse model rankings even on identical outputs.",
     problem:
       "If the grader is unreliable or gameable, alignment signals are unreliable. Yet graders are rarely subjected to the same adversarial scrutiny as the policies they shape.",
     contribution:
@@ -97,7 +97,7 @@ export const projects: Project[] = [
       "Sensitivity analysis over rationality parameters",
     ],
     outcomes: [
-      "Manuscript under review at IMNS 2026",
+      "Accepted at IEEE ICC 2026",
       "Defense strategies robust to bounded-rationality deviations",
     ],
     tags: ["Game Theory", "Security", "Multi-Agent"],
@@ -118,9 +118,55 @@ export const projects: Project[] = [
       "Cost-coverage Pareto analysis",
     ],
     outcomes: [
-      "Manuscript under review at IMNS 2026",
+      "Manuscript under review at IEEE IMNS 2026",
       "Design guidance for layered hardware-security programs",
     ],
     tags: ["Hardware Security", "Game Theory", "Systems"],
+  },
+  {
+    slug: "coalition-vast",
+    name: "COALITION-VAST",
+    tagline: "Auditable multi-agent alignment under Byzantine governance.",
+    overview:
+      "Extends VAST from single-agent compliance to auditable multi-agent coordination through machine-checkable commitments, adaptive targeted auditing, governance thresholds, and a high-stakes review gate.",
+    problem:
+      "Scaling aligned AI from single-agent systems to multi-agent ecosystems introduces collective failures — coalition deviation, governance capture, and rushed rule changes — that do not arise in isolation.",
+    contribution:
+      "A framework that models coordination as a coalition game with on-chain rule evolution, keeps agents bound to locked constraints, and adds trust-driven targeted auditing so detection becomes adaptive rather than fixed.",
+    methods: [
+      "Coalition game formulation with on-chain rule evolution",
+      "BFT consensus and supermajority governance thresholds",
+      "Trust-driven targeted auditing with adaptive detection",
+      "Prototype simulation across healthcare, autonomous swarms, and multi-stakeholder finance",
+    ],
+    outcomes: [
+      "Manuscript under review at IEEE IMNS 2026",
+      "+30% relative alignment improvement, 98% reduction in undetected coalition deviation",
+    ],
+    links: [{ label: "Draft", href: "#" }],
+    tags: ["Multi-Agent Systems", "AI Alignment", "Byzantine Governance", "Blockchain"],
+  },
+  {
+    slug: "vast-nlg",
+    name: "When Safe-Looking Models Fail",
+    tagline: "Exposing a hidden decision gap in multi-turn conversational safety.",
+    overview:
+      "Introduces VAST-NLG, a multi-turn benchmark that operationalizes conversational safety as dialogue-act selection, revealing that models which appear safe when the correct action is supplied degrade when they must infer it autonomously.",
+    problem:
+      "Most LLM safety evaluations test policy execution — whether a model can follow a known safety instruction. Deployed conversational agents face a harder problem: they must first infer the correct policy action from dialogue context alone.",
+    contribution:
+      "A 500-episode benchmark across 10 safety categories that separates oracle-conditioned execution from autonomous action selection, exposing a systematic decision gap masked by standard evaluations.",
+    methods: [
+      "Multi-turn dialogue-act selection benchmark (500 episodes, 10 safety categories)",
+      "Oracle-conditioned vs. autonomous evaluation regimes",
+      "46-check validation harness for the VAST policy backbone",
+      "Component, integration, scenario, and ablation checks",
+    ],
+    outcomes: [
+      "Manuscript under review at IEEE IMNS 2026",
+      "Decision gap demonstrated: models degrade when action must be inferred, not supplied",
+    ],
+    links: [{ label: "Draft", href: "#" }],
+    tags: ["Conversational Safety", "LLM Evaluation", "Trustworthy AI"],
   },
 ];

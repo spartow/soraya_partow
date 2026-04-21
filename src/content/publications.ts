@@ -38,23 +38,41 @@ export const publications: Publication[] = [
     title:
       "Behavioral Game-Theoretic Defense Strategies for IoT Security under Bounded Rationality",
     authors: ["Soraya Partow", "et al."],
-    venue: "IMNS 2026 — International Conference on Microelectronics and Nanoscale Systems",
+    venue: "IEEE ICC 2026 — IEEE International Conference on Communications",
     year: 2026,
-    status: "under-review",
-    note: "Manuscript submitted.",
+    status: "accepted",
+    links: [{ label: "Preprint", href: "#" }],
   },
   {
     title:
       "Multi-Level Strategic Defense against Hardware Trojans: A Game-Theoretic Perspective",
     authors: ["Soraya Partow", "et al."],
-    venue: "IMNS 2026 — International Conference on Microelectronics and Nanoscale Systems",
+    venue: "IEEE IMNS 2026 — IEEE International Conference on Microelectronics and Nanoscale Systems",
     year: 2026,
     status: "under-review",
     note: "Manuscript submitted.",
   },
   {
     title:
-      "Grader Reliability and Reward Manipulation: An Auditing Benchmark for RLHF-Style Pipelines",
+      "COALITION-VAST: Auditable Multi-Agent Alignment Under Byzantine Governance",
+    authors: ["Soraya Partow", "Satyaki Nan"],
+    venue: "IEEE IMNS 2026 — IEEE International Conference on Microelectronics and Nanoscale Systems",
+    year: 2026,
+    status: "under-review",
+    note: "Manuscript submitted.",
+  },
+  {
+    title:
+      "When Safe-Looking Models Fail: Exposing a Hidden Decision Gap in Multi-Turn Conversational Safety",
+    authors: ["Soraya Partow", "Satyaki Nan"],
+    venue: "IEEE IMNS 2026 — IEEE International Conference on Microelectronics and Nanoscale Systems",
+    year: 2026,
+    status: "under-review",
+    note: "Manuscript submitted.",
+  },
+  {
+    title:
+      "Who Grades the Graders? Validating Automated Evaluators in Adversarial AI Safety Benchmarks",
     authors: ["Soraya Partow", "et al."],
     venue: "NeurIPS 2026 (target)",
     year: 2026,

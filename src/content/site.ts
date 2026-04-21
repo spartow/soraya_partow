@@ -6,7 +6,7 @@ export const site = {
   description:
     "Academic homepage of Soraya Partow — Principal Software Engineer and M.S. Computer Science student researching AI alignment, multi-agent systems, and trustworthy autonomous systems.",
   url: "https://sorayapartow.com",
-  email: "soraya.partow@example.com",
+  email: "spartow@radar.gsw.edu",
   location: "United States",
   affiliation: "Georgia Southwestern State University",
   role: "Principal Software Engineer · M.S. Computer Science",
@@ -18,7 +18,7 @@ export const site = {
     linkedin: "https://www.linkedin.com/in/sorayapartow/",
     orcid: "https://orcid.org/0000-0000-0000-0000",
     cv: "/cv/Soraya_Partow_CV.pdf",
-    email: "mailto:soraya.partow@example.com",
+    email: "mailto:spartow@radar.gsw.edu",
   },
   nav: [
     { href: "/", label: "Home" },

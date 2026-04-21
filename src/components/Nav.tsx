@@ -11,7 +11,7 @@ export function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-ink-200/70 bg-ink-50/85 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-ink-200/70 bg-white/60 backdrop-blur-md">
       <div className="container-wide flex h-14 items-center justify-between">
         <Link href="/" className="no-underline font-serif text-lg tracking-tight text-ink-900">
           {site.shortName}

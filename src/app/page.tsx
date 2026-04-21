@@ -15,13 +15,7 @@ export default function HomePage() {
       <section className="pt-16 md:pt-24">
         <div className="container-wide grid gap-10 md:grid-cols-[1fr_auto] md:items-center">
           <div className="reveal">
-            <p className="mb-3 text-xs uppercase tracking-[0.22em] text-ink-500">
-              {site.role}
-            </p>
             <h1 className="mb-4">{site.name}</h1>
-            <p className="max-w-prose text-lg leading-relaxed text-ink-700">
-              {site.tagline}
-            </p>
             <p className="mt-4 max-w-prose text-ink-600 leading-relaxed">
               My research focuses on <strong>AI alignment and safety</strong>,{" "}
               <strong>multi-agent systems</strong>, game theory for security,
