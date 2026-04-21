@@ -17,7 +17,7 @@ export const publications: Publication[] = [
     title:
       "Values Alignment and Stability Tracking in Autonomous Agents (VAST): A Framework for Monitoring Moral Drift",
     authors: ["Soraya Partow", "et al."],
-    venue: "ICAD 2026 — International Conference on Autonomous Decision-Making",
+    venue: "IEEE ICAD 2026 — IEEE International Conference on Autonomous Decision-Making",
     year: 2026,
     status: "accepted",
     links: [
@@ -29,7 +29,7 @@ export const publications: Publication[] = [
     title:
       "Auditable On-Chain Governance for Autonomous AI Agents: A VAST-Blockchain Approach",
     authors: ["Soraya Partow", "et al."],
-    venue: "IEEE Conference Proceedings, 2026",
+    venue: "IEEE ICAD 2026 — IEEE International Conference on Autonomous Decision-Making",
     year: 2026,
     status: "accepted",
     links: [{ label: "Preprint", href: "#" }],

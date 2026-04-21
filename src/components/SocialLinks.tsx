@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, Github, Linkedin, FileText, GraduationCap } from "lucide-react";
+import { Mail, Github, Linkedin, FileText } from "lucide-react";
 import { site } from "@/content/site";
 
 const linkClass =
@@ -8,14 +8,8 @@ const linkClass =
 export function SocialLinks() {
   return (
     <div className="flex flex-wrap gap-2">
-      <Link href={site.social.cv} className={linkClass}>
-        <FileText size={14} /> CV
-      </Link>
       <Link href="/publications" className={linkClass}>
         <FileText size={14} /> Publications
-      </Link>
-      <Link href={site.social.scholar} target="_blank" className={linkClass}>
-        <GraduationCap size={14} /> Google Scholar
       </Link>
       <Link href={site.social.github} target="_blank" className={linkClass}>
         <Github size={14} /> GitHub

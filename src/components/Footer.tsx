@@ -13,7 +13,6 @@ export function Footer() {
           <Link className="link-quiet" href={site.social.scholar} target="_blank">Scholar</Link>
           <Link className="link-quiet" href={site.social.github} target="_blank">GitHub</Link>
           <Link className="link-quiet" href={site.social.linkedin} target="_blank">LinkedIn</Link>
-          <Link className="link-quiet" href={site.social.cv}>CV</Link>
         </div>
       </div>
     </footer>

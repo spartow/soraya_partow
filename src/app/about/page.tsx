@@ -12,7 +12,7 @@ export default function AboutPage() {
     <Section title="About" eyebrow="Biography">
       <div className="prose max-w-prose text-ink-700 leading-relaxed space-y-5">
         <p>
-          I am <strong>Soraya Partow</strong>, a Principal Software Engineer
+          I am Soraya Partow, a Principal Software Engineer
           and an M.S. Computer Science student at {site.affiliation}. My work
           sits at the intersection of AI alignment, multi-agent systems, and
           the engineering practices required to deploy autonomous systems
@@ -20,8 +20,8 @@ export default function AboutPage() {
         </p>
         <p>
           Over the past decade I have led engineering efforts at{" "}
-          <strong>Expedia Group</strong>, <strong>Dell EMC</strong>, and{" "}
-          <strong>Microsoft</strong>, spanning large-scale distributed systems,
+          Expedia Group, Dell EMC, and{" "}
+          Microsoft, spanning large-scale distributed systems,
           cloud infrastructure, and ML-supported platforms. That experience
           shapes how I approach research: I am interested in alignment,
           evaluation, and governance questions that must survive contact with
@@ -29,12 +29,12 @@ export default function AboutPage() {
           constraints, and imperfect human oversight.
         </p>
         <p>
-          My current graduate research develops <strong>VAST (Values
-          Alignment &amp; Stability Tracker)</strong>, a framework for
+          My current graduate research develops VAST (Values
+          Alignment &amp; Stability Tracker), a framework for
           monitoring moral drift in autonomous agents, and a blockchain-backed
           extension that makes AI governance independently auditable. In
-          parallel, I study <strong>grader reliability</strong> and{" "}
-          <strong>reward manipulation</strong> in RLHF-style pipelines, and
+          parallel, I study grader reliability and{" "}
+          reward manipulation in RLHF-style pipelines, and
           behavioral game-theoretic defenses for IoT and hardware security.
         </p>
         <p>

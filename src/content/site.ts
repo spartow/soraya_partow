@@ -13,9 +13,9 @@ export const site = {
   tagline:
     "Researching AI alignment, multi-agent systems, and trustworthy autonomous systems — bridging principled research and production-scale engineering.",
   social: {
-    github: "https://github.com/sorayapartow",
+    github: "https://github.com/spartow",
     scholar: "https://scholar.google.com/citations?user=REPLACE_ME",
-    linkedin: "https://www.linkedin.com/in/sorayapartow/",
+    linkedin: "https://www.linkedin.com/in/soraya-partow/",
     orcid: "https://orcid.org/0000-0000-0000-0000",
     cv: "/cv/Soraya_Partow_CV.pdf",
     email: "mailto:spartow@radar.gsw.edu",
@@ -25,9 +25,7 @@ export const site = {
     { href: "/about", label: "About" },
     { href: "/research", label: "Research" },
     { href: "/publications", label: "Publications" },
-    { href: "/projects", label: "Projects" },
     { href: "/experience", label: "Experience" },
-    { href: "/cv", label: "CV" },
     { href: "/contact", label: "Contact" },
   ],
 };

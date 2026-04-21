@@ -20,7 +20,7 @@
   body {
     @apply text-ink-800 font-sans;
     font-feature-settings: "ss01", "cv11";
-    background: linear-gradient(168deg, #faf9f7 0%, #f3f1ed 30%, #eef0f3 70%, #eae8f0 100%);
+    background: linear-gradient(168deg, #f0ecf8 0%, #e8e0f4 30%, #dfe4f6 60%, #e6dff0 100%);
     background-attachment: fixed;
     min-height: 100vh;
   }
